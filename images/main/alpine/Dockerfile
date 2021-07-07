@@ -29,7 +29,7 @@ RUN set -ex; \
 
 
 # Once application has been built, prepare production image
-FROM nginx:alpine
+FROM nginx:1.21-alpine
 
 ENV LANG=en_US.UTF-8 \
     LC_ALL=C.UTF-8
